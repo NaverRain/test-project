@@ -96,6 +96,7 @@ The application will be available at http://localhost:8080.
   "password": "password123"
 }
 `
+
 **Response**:
 
 `{
