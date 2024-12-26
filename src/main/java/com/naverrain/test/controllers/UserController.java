@@ -20,8 +20,8 @@ public class UserController {
 
     @GetMapping("/users")
     public ResponseEntity<List<UserDto>> getAllUsers(@RequestHeader("Authorization") String token) {
-        List<UserDto> users = userService.getAllUsers();
-        return ResponseEntity.ok(users);
+            List<UserDto> users = userService.getAllUsers();
+            return ResponseEntity.ok(users);
     }
 
     @DeleteMapping("/users/{id}")
